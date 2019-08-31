@@ -1,19 +1,37 @@
 body {
-    margin: 0;
-    color: #D1D1D1;
+  background: #28262C;
+  margin: 0;
+  color: #D1D1D1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-link {
+  color: #D1D1D1;
+  text-decoration: none;
 }
 
 .banner {
-    background: #28262C;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.bannerUnderline {
-    border: 0;
-    height: 0.5vh;
-    background-image: linear-gradient(90deg,#D1D1D100,#D1D1D175,#D1D1D100);
+.banner-content {
+  display: flex;
+  width: 40vw;
+  justify-content: space-around;
 }
+
+.banner-underline {
+  border: 0;
+  height: 0.2vh;
+  width: 20vw;
+  background-image: linear-gradient(90deg,#D1D1D100,#D1D1D175,#D1D1D100);
+}
+
