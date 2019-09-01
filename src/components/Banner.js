@@ -20,11 +20,9 @@ class Banner extends Component {
 
   render() {
     return (
-      <div 
-        className="banner"
-      >
+      <div className="banner-container" >
         { this.state.mouseOver
-					? <div onMouseLeave={() => this.handleMouseLeave()} className="banner-content">
+					? <div onMouseLeave={() => this.handleMouseLeave()} className="banner" >
 							<h1>
 								<a className="navbar-link" href="https://www.linkedin.com/in/charlieprusso/" target="blank" >linkedin.</a>
 							</h1>
@@ -34,14 +32,13 @@ class Banner extends Component {
 							<h1>
 								<a className="navbar-link" href="https://medium.com/@cparusso" target="blank" >medium.</a>
 							</h1>
-            </div> 
-          : <h1
-              onMouseEnter={() => this.handleMouseEnter()}
-            >
-              charlie.
-            </h1>
+						</div> 
+					: <div className="banner" >
+							<h1 onMouseEnter={() => this.handleMouseEnter()} >
+								charlie.
+							</h1>
+						</div>
         }
-        <hr className="banner-underline" />
       </div>
     )
   }

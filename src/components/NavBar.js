@@ -6,25 +6,28 @@ class NavBar extends Component {
   render() {
     return (
       <div className="navbar">
-				<NavLink
-					to="/"
-					className="navbar-link"
-				>
-					home.
-				</NavLink>
-				<NavLink
-					to="/about"
-					className="navbar-link"
-				>
-					about.
-				</NavLink>
-				<NavLink
-					to="/projects"
-					className="navbar-link"
-				>
-					projects.
-				</NavLink>
-			</div> 
+				<div className="nav-left" >
+					<NavLink to="/" className="navbar-link" >
+						home.
+					</NavLink>
+				</div>
+				<div className="nav-center" >
+					<NavLink to="/projects" className="navbar-link" >
+						portfolio.
+					</NavLink>
+					<NavLink to="/about" className="navbar-link" >
+						about.
+					</NavLink>
+					<NavLink to="/about" className="navbar-link" >
+						resume.
+					</NavLink>
+				</div>
+				<div className="nav-right" >
+					<NavLink to="/projects" className="navbar-link" >
+						contact.
+					</NavLink>
+				</div>
+			</div>
     )
   }
 }

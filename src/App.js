@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
+import { Document, Page } from 'react-pdf';
 
 import NavBar from './components/NavBar.js'
 import Banner from './components/Banner.js'
 import About from './components/About.js'
 import Projects from './containers/Projects.js'
 
-// import styled from 'styled-components'
 
 import './App.css'
 
