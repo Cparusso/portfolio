@@ -18,14 +18,16 @@ class NavBar extends Component {
 					<NavLink to="/about" className="navbar-link" >
 						about.
 					</NavLink>
-					<NavLink to="/about" className="navbar-link" >
-						resume.
-					</NavLink>
+				<a 
+					href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
+					className="navbar-link"
+					target="blank"
+				>
+					resume.
+				</a>
 				</div>
 				<div className="nav-right" >
-					<NavLink to="/projects" className="navbar-link" >
-						contact.
-					</NavLink>
+					<a href="mailto:hello@charlierusso.me" className="navbar-link" >contact.</a>
 				</div>
 			</div>
     )
