@@ -55,7 +55,7 @@ h1 {
 
 .banner {
   height: 20vh;
-  width: 80vw;
+  width: 20vw;
   font-size: 2em;
   margin: auto;
 
@@ -68,6 +68,11 @@ h1 {
     -ms-animation: fadein 2s; /* Internet Explorer */
      -o-animation: fadein 2s; /* Opera < 12.1 */
         animation: fadein 2s;
+}
+
+.react-icon-svg {
+  margin-top: 3vh;
+  font-size: 2em;
 }
 
 @keyframes fadein {

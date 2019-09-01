@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
+import { FaLinkedin, FaGithubSquare, FaMedium } from 'react-icons/fa';
+
 
 class Banner extends Component {
 	state = {
@@ -37,15 +39,15 @@ class Banner extends Component {
 					style={{ opacity: this.state.mouseOver ? 1 : 0, display: this.state.mouseOver ? 'flex' : 'none' }}
 					className="banner"
 				>
-					<h1>
-						<a className="navbar-link" href="https://www.linkedin.com/in/charlieprusso/" target="blank" >linkedin.</a>
-					</h1>
-					<h1>
-						<a className="navbar-link" href="https://www.github.com/cparusso/" target="blank" >github.</a>
-					</h1>
-					<h1>
-						<a className="navbar-link" href="https://medium.com/@cparusso" target="blank" >medium.</a>
-					</h1>
+					<a className="navbar-link react-icon-svg" href="https://www.linkedin.com/in/charlieprusso/" target="blank" >
+						<FaLinkedin />
+					</a>
+					<a className="navbar-link react-icon-svg" href="https://www.github.com/cparusso/" target="blank" >
+						<FaGithubSquare />
+					</a>
+					<a className="navbar-link react-icon-svg" href="https://medium.com/@cparusso" target="blank" >
+						<FaMedium />
+					</a>
 				</div>
 			</div>
 		)
