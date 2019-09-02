@@ -23,7 +23,7 @@ body {
   /* the percentages with the colors determine the amount of space that that color will spread over */
   /* set the second to a very low number to see the target */
 
-  background-image: radial-gradient(farthest-corner at 26% 50%, #00c2bf 15%, #00000040 75%);
+  /* background-image: radial-gradient(farthest-corner at 26% 50%, #00c2bf 15%, #00000040 150%); */
   /* background-image: radial-gradient(closest-corner at 27.5% 50%, #00c2bf 10%, #00000040 90%) */
   /* background-image: radial-gradient(farthest-side at 28% 50%, #00c2bf 10%, #00000040 90%) */
   /* background-image: radial-gradient(closest-side at 28% 50%, #00c2bf 10%, #00000040 90%) */
