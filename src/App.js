@@ -12,14 +12,16 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
-      <NavBar />
-      <Switch>
-        <Route exact path="/" component={Banner} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
-      </Switch>
-    </Router>
+    <div className="spotlight">
+      <Router>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Banner} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

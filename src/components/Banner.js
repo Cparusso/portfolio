@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
-// import { FaLinkedinIn, FaGithub, FaMediumM } from 'react-icons/fa'; These have no squares around them
+// import { FaLinkedinIn, FaGithub, FaMediumM } from 'react-icons/fa'; // These have no squares around them
 import { FaLinkedin, FaGithubSquare, FaMedium } from 'react-icons/fa';
-
 
 class Banner extends Component {
 	state = {

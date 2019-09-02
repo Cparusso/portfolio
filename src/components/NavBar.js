@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
+import { MdEmail } from 'react-icons/md';
 
 class NavBar extends Component {
 
@@ -8,7 +9,7 @@ class NavBar extends Component {
       <div className="navbar">
 				<div className="nav-left" >
 					<NavLink to="/" className="navbar-link" >
-						home.
+						<img className="signature" src="signature.png" />
 					</NavLink>
 				</div>
 				<div className="nav-center" >
@@ -18,16 +19,18 @@ class NavBar extends Component {
 					<NavLink to="/about" className="navbar-link" >
 						about.
 					</NavLink>
-				<a 
-					href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
-					className="navbar-link"
-					target="blank"
-				>
-					resume.
-				</a>
+					<a 
+						href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
+						className="navbar-link"
+						target="blank"
+					>
+						resume.
+					</a>
 				</div>
 				<div className="nav-right" >
-					<a href="mailto:hello@charlierusso.me" className="navbar-link" >contact.</a>
+					<a href="mailto:hello@charlierusso.me" className="navbar-link" >
+						contact.
+					</a>
 				</div>
 			</div>
     )

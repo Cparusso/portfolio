@@ -10,44 +10,76 @@ COLORS:
 body {
   margin: 0;
   color: #2F4550;
-  background: #00c2bf;
+  background: #FF5E5B;
   font-family: 'Open Sans', sans-serif;
+}
+
+.spotlight {
+  background: #00c2bf;
+  /* For the radical gradient first you select the shape and position */
+  /* the first number is for the horizontal position */
+  /* the second number is for the vertical position */
+  /* Next you handle the colors */
+  /* the percentages with the colors determine the amount of space that that color will spread over */
+  /* set the second to a very low number to see the target */
+
+  /* background-image: radial-gradient(farthest-corner at 26% 49%, #00c2bf 15%, #00000040 75%); */
+  /* background-image: radial-gradient(closest-corner at 27.5% 50%, #00c2bf 10%, #00000040 90%) */
+  /* background-image: radial-gradient(farthest-side at 28% 50%, #00c2bf 10%, #00000040 90%) */
+  /* background-image: radial-gradient(closest-side at 28% 50%, #00c2bf 10%, #00000040 90%) */
+
+  height: 100vh;
 }
 
 h1 {
   font-weight: 300;
 }
 
+.signature {
+  height: 6vh;
+  width: 10vw;
+  margin-top: 0.7vh;
+}
+
 .navbar {
+  padding-top: 2vh;
   height: 8vh;
-  background: #00c2bf;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
+  
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+  
 }
 
-/* .nav-left {
-  
-} */
+.nav-left {
+  margin-left: -8vw;
+}
 
 .nav-center {
-  width: 30vw;
+  width: 40vw;
+  margin-left: -3vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-/* .nav-right {
-
-} */
+.nav-right {
+  margin-right: -8vw;
+}
 
 .navbar-link {
   color: #2F4550;
   text-decoration: none;
+  font-size: 1.5em;
 }
 
 
 .banner-container {
-  height: 92vh;
+  height: 90vh;
   margin: auto;
   display: flex;
   overflow: hidden;
@@ -70,6 +102,20 @@ h1 {
   animation: fadein 2s;
 }
 
+.banner-about {
+  /* height: 80vh; */
+  width: 40vw;
+  font-size: 1.5em;
+  margin: auto;
+  overflow: scroll;
+  
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
 .react-icon-svg {
   color: #2F4550;
   text-decoration: none;
@@ -79,12 +125,38 @@ h1 {
 
 @keyframes fadein {
   from { opacity: 0; }
-    to   { opacity: 1; }
+  to   { opacity: 1; }
 }
 
 .picture-of-me {
   height: 140%;
   margin-right: -0.2vw;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.picture-of-menobeard {
+  height: 160%;
+  margin-left: -10vw;
+
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+
+  -webkit-filter: grayscale(20%);
+  filter: grayscale(20%);
+}
+
+.picture-of-bab {
+  height: 90%;
+  margin-left: 5vw;
+  margin-top: 14vh;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
