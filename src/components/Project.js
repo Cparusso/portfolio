@@ -5,7 +5,7 @@ function Project() {
         <div>
             I am a project
         </div>
-    );
+    )
 }
 
 export default Project
