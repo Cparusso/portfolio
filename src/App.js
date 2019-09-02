@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
-import { Document, Page } from 'react-pdf';
 
 import NavBar from './components/NavBar.js'
 import Banner from './components/Banner.js'

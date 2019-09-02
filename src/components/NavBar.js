@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
-import { MdEmail } from 'react-icons/md';
+// import { MdEmail } from 'react-icons/md';
 
 class NavBar extends Component {
 
