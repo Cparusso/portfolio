@@ -25,6 +25,7 @@ function About() {
                 <img className="picture-of-menobeard fade-in" src="menobeard.png" />
             </div>
             <div
+                className="fade-in"
                 style={{
                     width: "100vw",
                         textAlign: "center",

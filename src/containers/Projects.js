@@ -11,6 +11,7 @@ function Projects() {
                 <Project />
             </div>
             <div
+                className="fade-in"
                 style={{
                     width: "100vw",
                     textAlign: "center",
