@@ -10,7 +10,7 @@ COLORS:
 body {
   margin: 0;
   color: #2F4550;
-  background: #FF5E5B;
+  background: #FF8684;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -37,8 +37,44 @@ h1 {
 
 .signature {
   height: 6vh;
-  width: 10vw;
+  width: 15vw;
   margin-top: 0.7vh;
+  animation: signature-no-hover 0.6s;
+  animation-fill-mode: forwards;
+}
+
+.signature:hover {
+  height: 6vh;
+  width: 15vw;
+  margin-top: 0.7vh;
+  filter: invert(1);
+  animation: signature-hover 0.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes signature-hover {
+  0% {
+    filter: invert(0);
+  }
+  100% {
+    filter: invert(1);
+  }
+}
+
+@keyframes signature-no-hover {
+  0% {
+    filter: invert(1);
+  }
+  100% {
+    filter: invert(0);
+  }
+}
+
+.signature-invert {
+  height: 6vh;
+  width: 15vw;
+  margin-top: 0.7vh;
+  filter: invert(1);
 }
 
 .navbar {
@@ -47,13 +83,6 @@ h1 {
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
-  
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
-  
 }
 
 .nav-left {
@@ -62,7 +91,7 @@ h1 {
 
 .nav-center {
   width: 40vw;
-  margin-left: -3vw;
+  margin-left: -12vw;
   display: flex;
   justify-content: space-evenly;
 }
@@ -75,8 +104,40 @@ h1 {
   color: #2F4550;
   text-decoration: none;
   font-size: 1.5em;
+  animation: btn-no-hover 0.6s;
+  animation-fill-mode: forwards;
 }
 
+.navbar-link:hover {
+  animation: btn-hover 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.selected-nav {
+  color: #DCEDFF;
+  text-decoration: none;
+  font-size: 1.5em;
+  animation: btn-hover 0.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes btn-no-hover {
+  0% {
+    color: #DCEDFF;
+  }
+  100% {
+    color: #2F4550;
+  }
+}
+
+@keyframes btn-hover {
+  0% {
+    color: #2F4550;
+  }
+  100% {
+    color: #DCEDFF;
+  }
+}
 
 .banner-container {
   height: 90vh;
@@ -94,13 +155,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
-}
+  }
 
 .banner-about {
   /* height: 80vh; */
@@ -108,19 +163,20 @@ h1 {
   font-size: 1.5em;
   margin: auto;
   overflow: scroll;
-  
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
-}
+  }
 
 .react-icon-svg {
   color: #2F4550;
   text-decoration: none;
   margin-top: 6vh;
   font-size: 2em;
+  animation: btn-no-hover 0.6s;
+  animation-fill-mode: forwards;
+}
+
+.react-icon-svg:hover {
+  animation: btn-hover 0.3s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
@@ -131,24 +187,12 @@ h1 {
 .picture-of-me {
   height: 140%;
   margin-right: -0.2vw;
-
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
 }
 
 .picture-of-menobeard {
   height: 160%;
   margin-left: -10vw;
-
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s; /* Firefox < 16 */
-  -ms-animation: fadein 2s; /* Internet Explorer */
-  -o-animation: fadein 2s; /* Opera < 12.1 */
-  animation: fadein 2s;
-
+  
   -webkit-filter: grayscale(20%);
   filter: grayscale(20%);
 }
@@ -157,7 +201,17 @@ h1 {
   height: 90%;
   margin-left: 5vw;
   margin-top: 14vh;
+}
 
+.fade-in {
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+.slow-fade-in {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */

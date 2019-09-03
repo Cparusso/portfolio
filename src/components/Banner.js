@@ -26,7 +26,7 @@ class Banner extends Component {
 					onMouseEnter={() => this.handleMouseEnter()}
 					onMouseLeave={() => this.handleMouseLeave()}
 					style={{ opacity: this.state.mouseOver ? 0 : 1, display: this.state.mouseOver ? 'none' : 'flex' }}
-					className="banner"
+					className="banner slow-fade-in"
 				>
 					<h1 >
 						charlie.
@@ -36,7 +36,7 @@ class Banner extends Component {
 					onMouseEnter={() => this.handleMouseEnter()}
 					onMouseLeave={() => this.handleMouseLeave()}
 					style={{ opacity: this.state.mouseOver ? 1 : 0, display: this.state.mouseOver ? 'flex' : 'none' }}
-					className="banner"
+					className="banner slow-fade-in"
 				>
 					<a className="react-icon-svg" href="https://www.linkedin.com/in/charlieprusso/" target="blank" >
 						<FaLinkedin />
@@ -48,7 +48,7 @@ class Banner extends Component {
 						<FaMedium />
 					</a>
 				</div>
-				<img className="picture-of-me" src="jusme.png"/>
+				<img className="picture-of-me fade-in" src="jusme.png"/>
 			</div>
 		)
 	}

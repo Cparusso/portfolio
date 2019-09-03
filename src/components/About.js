@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <div className="banner-container" >
-                <div className="banner-about" >
+                <div className="banner-about fade-in" >
                     <p>
                         Hi, I'm Charlie.
                     </p>
@@ -22,11 +22,11 @@ function About() {
                         drive to learn and share new technologies and ideas.
                     </p>
                 </div>
-                <img className="picture-of-menobeard" src="menobeard.png" />
+                <img className="picture-of-menobeard fade-in" src="menobeard.png" />
             </div>
             <div
                 style={{
-                        width: "100vw",
+                    width: "100vw",
                         textAlign: "center",
                         marginTop: "-7vh",
                         zIndex: "1000",
