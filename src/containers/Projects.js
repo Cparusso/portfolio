@@ -9,11 +9,11 @@ function Projects() {
 
     const flickityOptions = {
         initialIndex: 0,
-        autoPlay: true,
+        autoPlay: 10000,
     }
 
     return (
-        <div>
+        <div className="fade-in projects">
             <Flickity
                 className={'carousel'} // default ''
                 elementType={'div'} // default 'div'
@@ -22,33 +22,59 @@ function Projects() {
                 reloadOnUpdate // default false
                 static // default false
         >
-                <div style={{display: "flex", width: "50vw"}}>
+            <div className="project-section" >
+                <div>
+                    <h1 className="project-title">Blog Timer</h1>
                     <p>
-                        I'm a full-stack software engineer based in New York City with a 
-                        drive to learn and share new technologies and ideas.
-                        I'm a full-stack software engineer based in New York City with a 
-                        drive to learn and share new technologies and ideas.
+                        Blog Timer is a simple timer app built using react. 
+                        Unlike most timers I've used, this timer displays 
+                        the updating time up in the title of the tab so that 
+                        you can have the timer running in the background 
+                        while you are presenting something and see how much 
+                        time you have left without having to switch tabs.
                     </p>
-                    <img src="mebab.png" />
+                    <div className="project-links">
+                        <a href="http://blogtimer.herokuapp.com/" target="blank">Hosted Site</a>
+                        <div>|</div>
+                        <a href="https://github.com/Cparusso/Blog-Timer" target="blank">Frontend Repo</a>
+                    </div>
                 </div>
-                <div style={{ display: "flex", width: "50vw" }}>
+                <img src="mebab.png" />
+            </div>
+            <div className="project-section" >
+                <div>
+                    <h1 className="project-title">Headcount</h1>
                     <p>
-                        I'm a full-stack software engineer based in New York City with a
-                        drive to learn and share new technologies and ideas.
-                        I'm a full-stack software engineer based in New York City with a
-                        drive to learn and share new technologies and ideas.
+                        Headcount is a platform for non-profits and 
+                        other small organizations to promote their 
+                        volunteer led events. A user can sign up, 
+                        view local upcoming events that need volunteers, 
+                        and commit to making a difference.
                     </p>
-                    <img src="mebab.png" />
+                    <div className="project-links">
+                        <a href="https://github.com/Cparusso/headcount-react-frontend" target="blank">Frontend Repo</a>
+                        <div>|</div>
+                        <a href="https://github.com/Cparusso/Headcount" target="blank">Backend Repo</a>
+                    </div>
                 </div>
-                <div style={{ display: "flex", width: "50vw" }}>
+                <img src="mebab.png" />
+            </div>
+            <div className="project-section" >
+                <div>
+                    <h1 className="project-title">Parsed</h1>
                     <p>
-                        I'm a full-stack software engineer based in New York City with a
-                        drive to learn and share new technologies and ideas.
-                        I'm a full-stack software engineer based in New York City with a
-                        drive to learn and share new technologies and ideas.
+                        Parsed is a data visualization tool that can 
+                        help non-developers parse through JSON 
+                        api data more easily.
                     </p>
-                    <img src="mebab.png" />
+                    <div className="project-links">
+                        <a href="https://parsed-app.herokuapp.com/" target="blank">Hosted Site</a>
+                        <div>|</div>
+                        <a href="https://github.com/Cparusso/parsed" target="blank">Frontend Repo</a>
+                    </div>
                 </div>
+                <img src="mebab.png" />
+            </div>
             </Flickity>
             <Footer />
         </div>

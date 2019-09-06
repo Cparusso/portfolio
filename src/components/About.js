@@ -6,20 +6,17 @@ function About() {
         <div>
             <div className="banner-container" >
                 <div className="banner-about fade-in" >
+                    <h1 className="about-header" >Hi, I'm Charlie.</h1>
                     <p>
-                        Hi, I'm Charlie.
+                        I'm a full-stack software engineer 
+                        based in New York City. I graduated from Flatiron School in 
+                        December of 2018 and have been working there in an instructional 
+                        role since then.
                     </p>
                     <p>
-                        I'm a full-stack software engineer based in New York City with a 
-                        drive to learn and share new technologies and ideas.
-                        I'm a full-stack software engineer based in New York City with a 
-                        drive to learn and share new technologies and ideas. 
-                        I'm a full-stack software engineer based in New York City with a 
-                        drive to learn and share new technologies and ideas.
-                    </p>
-                    <p>
-                        I'm a full-stack software engineer based in New York City with a 
-                        drive to learn and share new technologies and ideas.
+                        I've worked directly with over 80 students, to learn how to debug their code, 
+                        overcome code challenges, and collaborate with other developers on creative 
+                        and inventive projects. 
                     </p>
                 </div>
                 <img className="picture-of-menobeard fade-in" src="menobeard.png" />
