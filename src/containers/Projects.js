@@ -9,7 +9,7 @@ function Projects() {
 
     const flickityOptions = {
         initialIndex: 0,
-        autoPlay: 10000,
+        autoPlay: 15000,
     }
 
     return (
@@ -39,13 +39,25 @@ function Projects() {
                         <a href="https://github.com/Cparusso/Blog-Timer" target="blank">Frontend Repo</a>
                     </div>
                 </div>
-                <img src="mebab.png" />
+                <div
+                    className="project-demo"
+                >
+                    <iframe 
+                        src="https://giphy.com/embed/PgKj8vFwEy5EmwMmRL"
+                        width="480"
+                        height="300"
+                        frameBorder="0"
+                        class="giphy-embed"
+                        allowFullScreen
+                        >
+                    </iframe>
+                </div>
             </div>
             <div className="project-section" >
                 <div>
                     <h1 className="project-title">Headcount</h1>
                     <p>
-                        Headcount is a platform for non-profits and 
+                        Headcount would act as a platform for non-profits and 
                         other small organizations to promote their 
                         volunteer led events. A user can sign up, 
                         view local upcoming events that need volunteers, 
@@ -57,7 +69,19 @@ function Projects() {
                         <a href="https://github.com/Cparusso/Headcount" target="blank">Backend Repo</a>
                     </div>
                 </div>
-                <img src="mebab.png" />
+                <div
+                    className="project-demo"
+                >
+                    <iframe
+                        src="https://giphy.com/embed/SUKLvUT70nKYk0wD9H"
+                        width="480"
+                        height="292"
+                        frameBorder="0"
+                        class="giphy-embed"
+                        allowFullScreen
+                    >
+                    </iframe>
+                </div>
             </div>
             <div className="project-section" >
                 <div>
@@ -65,7 +89,8 @@ function Projects() {
                     <p>
                         Parsed is a data visualization tool that can 
                         help non-developers parse through JSON 
-                        api data more easily.
+                        api data more easily. Simply enter a URL to a JSON api, 
+                        select your endpoints and let Parsed do the rest.
                     </p>
                     <div className="project-links">
                         <a href="https://parsed-app.herokuapp.com/" target="blank">Hosted Site</a>
@@ -73,7 +98,19 @@ function Projects() {
                         <a href="https://github.com/Cparusso/parsed" target="blank">Frontend Repo</a>
                     </div>
                 </div>
-                <img src="mebab.png" />
+                <div
+                    className="project-demo"
+                >
+                    <iframe
+                        src="https://giphy.com/embed/mGJnASn4655rQFCcpI"
+                        width="480"
+                        height="292"
+                        frameBorder="0"
+                        class="giphy-embed"
+                        allowFullScreen
+                    >
+                    </iframe>
+                </div>
             </div>
             </Flickity>
             <Footer />
