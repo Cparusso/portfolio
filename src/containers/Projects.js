@@ -10,6 +10,7 @@ function Projects() {
     const flickityOptions = {
         initialIndex: 0,
         autoPlay: 15000,
+        prevNextButtons: false,
     }
 
     return (

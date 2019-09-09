@@ -481,6 +481,15 @@ https://flickity.metafizzy.co
   /* navbar */
   
   /* landing */
+  .banner-container {
+    height: auto;
+    overflow: auto;
+  }
+
+  .banner {
+    height: 35vh;
+  }
+
   .landing-icons {
     width: auto;
   }
@@ -517,7 +526,8 @@ https://flickity.metafizzy.co
     /* display: block; */
     position: fixed;
     bottom: 26vh;
-    width: 34vh;
+    width: 33vh;
+    font-size: 1em;
   }
   
   .project-demo {
