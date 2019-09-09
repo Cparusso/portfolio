@@ -44,10 +44,19 @@ function Projects() {
                 >
                     <iframe 
                         src="https://giphy.com/embed/PgKj8vFwEy5EmwMmRL"
+                        width="300"
+                        height="180"
+                        frameBorder="0"
+                        class="desktop-hide giphy-embed"
+                        allowFullScreen
+                        >
+                    </iframe>
+                    <iframe 
+                        src="https://giphy.com/embed/PgKj8vFwEy5EmwMmRL"
                         width="480"
                         height="300"
                         frameBorder="0"
-                        class="giphy-embed"
+                        class="mobile-hide giphy-embed"
                         allowFullScreen
                         >
                     </iframe>
@@ -74,10 +83,19 @@ function Projects() {
                 >
                     <iframe
                         src="https://giphy.com/embed/SUKLvUT70nKYk0wD9H"
+                        width="300"
+                        height="180"
+                        frameBorder="0"
+                        class="desktop-hide giphy-embed"
+                        allowFullScreen
+                    >
+                    </iframe>
+                    <iframe
+                        src="https://giphy.com/embed/SUKLvUT70nKYk0wD9H"
                         width="480"
                         height="292"
                         frameBorder="0"
-                        class="giphy-embed"
+                        class="mobile-hide giphy-embed"
                         allowFullScreen
                     >
                     </iframe>
@@ -103,10 +121,19 @@ function Projects() {
                 >
                     <iframe
                         src="https://giphy.com/embed/mGJnASn4655rQFCcpI"
+                        width="300"
+                        height="180"
+                        frameBorder="0"
+                        class="desktop-hide giphy-embed"
+                        allowFullScreen
+                    >
+                    </iframe>
+                    <iframe
+                        src="https://giphy.com/embed/mGJnASn4655rQFCcpI"
                         width="480"
                         height="292"
                         frameBorder="0"
-                        class="giphy-embed"
+                        class="mobile-hide giphy-embed"
                         allowFullScreen
                     >
                     </iframe>

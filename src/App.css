@@ -315,12 +315,9 @@ h1 {
 }
 
 .project-title {
-  /* display: flex; */
   position: fixed;
   top: 0;
   font-size: 3em;
-  /* width: 40vh; */
-  /* justify-content: space-between;  */
 }
 
 .project-links a {
@@ -465,3 +462,67 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
+
+.desktop-hide {
+  display: none;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 375px) {
+  .mobile-hide {
+    display: none;
+  }
+  
+  .desktop-hide {
+    display: block;
+  }
+
+  /* navbar */
+  
+  /* landing */
+  .landing-icons {
+    width: auto;
+  }
+
+  /* about */
+  .banner-about {
+    width: 90vw;
+  }
+
+  .about-header {
+    font-size: 2em
+  }
+
+  /* projects */
+  .project-section {
+    flex-direction: column;
+  }
+  
+  .project-title {
+    display: block;
+    position: inherit;
+    margin-top: 0;
+    font-size: 2em;
+  }
+  
+  .project-section p {
+    display: block;
+    position: inherit;
+    width: auto;
+    font-size: 1em;
+  }
+  
+  .project-links {
+    /* display: block; */
+    position: fixed;
+    bottom: 26vh;
+    width: 34vh;
+  }
+  
+  .project-demo {
+    position: fixed;
+    bottom: 2vh;
+  }
+}
+

@@ -19,7 +19,7 @@ function About() {
                         and inventive projects. 
                     </p>
                 </div>
-                <img className="picture-of-menobeard fade-in" src="menobeard.png" />
+                <img className="mobile-hide picture-of-menobeard fade-in" src="menobeard.png" />
             </div>
             <Footer />
         </div>

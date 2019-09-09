@@ -27,7 +27,7 @@ class Banner extends Component {
 						</a>
 					</div>
 				</div>
-				<img className="picture-of-me fade-in" src="jusme.png"/>
+				<img className="mobile-hide picture-of-me fade-in" src="jusme.png"/>
 			</div>
 		)
 	}
