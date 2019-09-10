@@ -309,7 +309,7 @@ h1 {
   display: flex;
   position: fixed;
   bottom: 2vh;
-  width: 40vh;
+  width: 42vh;
   justify-content: space-between; 
   font-size: 1.2em;
 }
@@ -479,11 +479,24 @@ https://flickity.metafizzy.co
   }
 
   /* navbar */
-  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   /* landing */
+  body {
+    background: #00c2bf;
+  }
+
+  .spotlight {
+    background: none;
+    /* height: 86vh; */
+  }
+
   .banner-container {
-    height: auto;
-    overflow: auto;
+    height: 60vh;
   }
 
   .banner {

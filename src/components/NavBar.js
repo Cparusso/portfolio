@@ -27,7 +27,7 @@ class NavBar extends Component {
 						<img className={this.state.selected === "home" ? "signature-invert" : "signature"} src="signature.png" />
 					</NavLink>
 				</div>
-				<div className="nav-center" >
+				<div className="nav-center mobile-hide" >
 					<NavLink to="/projects" className={this.state.selected === "portfolio" ? "selected-nav" : "navbar-link"} onClick={this.handleClick} >
 						portfolio
 					</NavLink>
@@ -42,7 +42,25 @@ class NavBar extends Component {
 						resume
 					</a>
 				</div>
-				<div className="nav-right" >
+				<div className="mobile-hide" >
+					<a href="mailto:hello@charlierusso.me" className="navbar-link" >
+						contact
+					</a>
+				</div>
+				<div className="nav-menu desktop-hide" >
+					<NavLink to="/projects" className={this.state.selected === "portfolio" ? "selected-nav" : "navbar-link"} onClick={this.handleClick} >
+						portfolio
+					</NavLink>
+					<NavLink to="/about" className={this.state.selected === "about" ? "selected-nav" : "navbar-link"} onClick={this.handleClick} >
+						about
+					</NavLink>
+					<a 
+						href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
+						className="navbar-link"
+						target="blank"
+					>
+						resume
+					</a>
 					<a href="mailto:hello@charlierusso.me" className="navbar-link" >
 						contact
 					</a>
