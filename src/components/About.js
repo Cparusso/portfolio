@@ -19,7 +19,7 @@ function About() {
                         and inventive projects. 
                     </p>
                 </div>
-                <img className="mobile-hide picture-of-menobeard fade-in" src="menobeard.png" />
+                <img className="mobile-hide picture-of-menobeard fade-in" src="menobeard.png" alt="charlie-crossed-arms-img"/>
             </div>
             <Footer />
         </div>

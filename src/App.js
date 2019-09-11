@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react'
-import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import NavBar from './components/NavBar.js'
 import Banner from './components/Banner.js'

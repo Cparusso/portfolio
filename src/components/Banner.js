@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Footer from '../components/Footer.js'
 // import { FaLinkedinIn, FaGithub, FaMediumM } from 'react-icons/fa'; // These have no squares around them
 import { FaLinkedin, FaGithubSquare, FaMedium } from 'react-icons/fa';
 
@@ -27,7 +26,7 @@ class Banner extends Component {
 						</a>
 					</div>
 				</div>
-				<img className="mobile-hide picture-of-me fade-in" src="jusme.png"/>
+				<img className="mobile-hide picture-of-me fade-in" src="jusme.png" alt="charlie-img"/>
 			</div>
 		)
 	}

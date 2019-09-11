@@ -3,8 +3,6 @@ import Project from '../components/Project.js'
 import Footer from '../components/Footer.js'
 import Flickity from 'react-flickity-component'
 
-import { FaLinkedin, FaGithubSquare, FaMedium } from 'react-icons/fa'
-
 function Projects() {
 
     const flickityOptions = {
@@ -48,7 +46,7 @@ function Projects() {
                         width="300"
                         height="180"
                         frameBorder="0"
-                        class="desktop-hide giphy-embed"
+                        className="desktop-hide giphy-embed"
                         allowFullScreen
                         >
                     </iframe>
@@ -57,7 +55,7 @@ function Projects() {
                         width="480"
                         height="300"
                         frameBorder="0"
-                        class="mobile-hide giphy-embed"
+                        className="mobile-hide giphy-embed"
                         allowFullScreen
                         >
                     </iframe>
@@ -87,7 +85,7 @@ function Projects() {
                         width="300"
                         height="180"
                         frameBorder="0"
-                        class="desktop-hide giphy-embed"
+                        className="desktop-hide giphy-embed"
                         allowFullScreen
                     >
                     </iframe>
@@ -96,7 +94,7 @@ function Projects() {
                         width="480"
                         height="292"
                         frameBorder="0"
-                        class="mobile-hide giphy-embed"
+                        className="mobile-hide giphy-embed"
                         allowFullScreen
                     >
                     </iframe>
@@ -125,7 +123,7 @@ function Projects() {
                         width="300"
                         height="180"
                         frameBorder="0"
-                        class="desktop-hide giphy-embed"
+                        className="desktop-hide giphy-embed"
                         allowFullScreen
                     >
                     </iframe>
@@ -134,7 +132,7 @@ function Projects() {
                         width="480"
                         height="292"
                         frameBorder="0"
-                        class="mobile-hide giphy-embed"
+                        className="mobile-hide giphy-embed"
                         allowFullScreen
                     >
                     </iframe>
