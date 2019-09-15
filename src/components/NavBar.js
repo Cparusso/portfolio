@@ -103,12 +103,17 @@ class NavBar extends Component {
 								href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
 								className="navbar-link"
 								target="blank"
+								onClick={this.handleClick}
 								>
 								resume
 							</a>
 						</div>
 						<div className="menu-col">
-							<a href="mailto:hello@charlierusso.me" className="navbar-link" >
+							<a
+								href="mailto:hello@charlierusso.me"
+								className="navbar-link"
+								onClick={this.handleClick}
+							>
 								contact
 							</a>
 						</div>
@@ -120,6 +125,11 @@ class NavBar extends Component {
 }
 
 export default NavBar
+
+// Make the landing page lower
+// make the about page lower
+// center the second row on the menu
+// add the hover animations to the project links
 
 // import React, { Component } from 'react'
 // import { BrowserRouter as NavLink } from "react-router-dom";

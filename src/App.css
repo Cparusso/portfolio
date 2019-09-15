@@ -314,6 +314,9 @@ h1 {
   font-size: 1.2em;
 }
 
+.project-links{
+}
+
 .project-title {
   position: fixed;
   top: 0;
@@ -322,7 +325,7 @@ h1 {
 
 .project-links a {
   color: #2F4550;
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 /*! Flickity v2.2.1
@@ -470,6 +473,10 @@ https://flickity.metafizzy.co
 
 /* MOBILE */
 @media screen and (max-width: 375px) {
+  .spotlight {
+    height: 30vh;
+  }
+
   .mobile-hide {
     display: none;
   }
@@ -517,6 +524,7 @@ https://flickity.metafizzy.co
   
   .hamburger {
     font-size: 1.5em;
+    position: fixed;
 
     display: inline-block;
 
@@ -628,13 +636,17 @@ https://flickity.metafizzy.co
   /* projects */
   .project-section {
     flex-direction: column;
+    position: fixed;
+    padding-top: 0.5em;
+    top: 3.5vh;
+    /* background: none; */
   }
   
   .project-title {
     display: block;
     position: inherit;
     margin-top: 0;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   
   .project-section p {
@@ -654,7 +666,7 @@ https://flickity.metafizzy.co
   
   .project-demo {
     position: fixed;
-    bottom: 2vh;
+    bottom: 1vh;
   }
 }
 
