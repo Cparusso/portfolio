@@ -488,13 +488,12 @@ https://flickity.metafizzy.co
   /* navbar */
   .nav-menu {
     display: flex;
-    /* flex-direction: column; */
     position: fixed;
     justify-content: space-between;
     width: 80vw;
     right: 3vw;
     top: 1vh;
-    /* align-items: flex-end; */
+    font-size: 0.9em;
   }
 
   .show-menu {
@@ -609,11 +608,6 @@ https://flickity.metafizzy.co
   
   .spotlight {
     background: none;
-    /* height: 86vh; */
-  }
-
-  .banner-container {
-    height: 60vh;
   }
 
   .banner {
@@ -622,6 +616,10 @@ https://flickity.metafizzy.co
 
   .landing-icons {
     width: auto;
+  }
+
+  .banner-container {
+    height: 80vh;
   }
 
   /* about */
@@ -634,12 +632,15 @@ https://flickity.metafizzy.co
   }
 
   /* projects */
+  .carousel {
+    margin-top: 10vh;
+    height: 70vh;
+  }
+
   .project-section {
     flex-direction: column;
     position: fixed;
     padding-top: 0.5em;
-    top: 3.5vh;
-    /* background: none; */
   }
   
   .project-title {
@@ -657,7 +658,6 @@ https://flickity.metafizzy.co
   }
   
   .project-links {
-    /* display: block; */
     position: fixed;
     bottom: 26vh;
     width: 33vh;
