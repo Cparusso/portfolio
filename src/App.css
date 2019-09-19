@@ -7,15 +7,33 @@ COLORS:
 
 */
 
+:root {
+  --main-bg-color: #00c2bf;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
 body {
   margin: 0;
   color: #2F4550;
-  background: #FF8684;
+  background: var(--main-bg-color);
   font-family: 'Open Sans', sans-serif;
 }
 
+html, body {
+  overscroll-behavior: none;
+}
+
 .spotlight {
-  background: #00c2bf;
+  background: var(--main-bg-color);
   /* For the radical gradient first you select the shape and position */
   /* the first number is for the horizontal position */
   /* the second number is for the vertical position */
@@ -146,7 +164,7 @@ h1 {
 }
 
 .banner {
-  height: 20vh;
+  height: 30vh;
   width: 40vw;
   font-size: 3em;
   margin: auto;
@@ -603,7 +621,7 @@ https://flickity.metafizzy.co
 
   /* landing */
   body {
-    background: #00c2bf;
+    background: var(--main-bg-color);
   }
   
   .spotlight {
