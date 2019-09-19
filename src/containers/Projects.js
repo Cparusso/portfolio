@@ -38,30 +38,11 @@ function Projects() {
                         <a href="https://github.com/Cparusso/Blog-Timer" target="blank">Frontend Repo</a>
                     </div>
                 </div>
-                <div
-                    className="project-demo"
-                >
-                    <iframe 
-                        src="https://giphy.com/embed/PgKj8vFwEy5EmwMmRL"
-                        width="300"
-                        height="180"
-                        frameBorder="0"
-                        className="desktop-hide giphy-embed"
-                        allowFullScreen
-                        >
-                    </iframe>
-                    <iframe 
-                        src="https://giphy.com/embed/PgKj8vFwEy5EmwMmRL"
-                        width="480"
-                        height="300"
-                        frameBorder="0"
-                        className="mobile-hide giphy-embed"
-                        allowFullScreen
-                        >
-                    </iframe>
+                <div className="project-demo">
+                    <img src="blog-timer.gif"/>
                 </div>
             </div>
-            <div className="project-section" >
+            <div className="project-section">
                 <div>
                     <h1 className="project-title">Headcount</h1>
                     <p>
@@ -77,27 +58,8 @@ function Projects() {
                         <a href="https://github.com/Cparusso/Headcount" target="blank">Backend Repo</a>
                     </div>
                 </div>
-                <div
-                    className="project-demo"
-                >
-                    <iframe
-                        src="https://giphy.com/embed/SUKLvUT70nKYk0wD9H"
-                        width="300"
-                        height="180"
-                        frameBorder="0"
-                        className="desktop-hide giphy-embed"
-                        allowFullScreen
-                    >
-                    </iframe>
-                    <iframe
-                        src="https://giphy.com/embed/SUKLvUT70nKYk0wD9H"
-                        width="480"
-                        height="292"
-                        frameBorder="0"
-                        className="mobile-hide giphy-embed"
-                        allowFullScreen
-                    >
-                    </iframe>
+                <div className="project-demo">
+                    <img src="headcount.gif"/>
                 </div>
             </div>
             <div className="project-section" >
@@ -115,27 +77,8 @@ function Projects() {
                         <a href="https://github.com/Cparusso/parsed" target="blank">Frontend Repo</a>
                     </div>
                 </div>
-                <div
-                    className="project-demo"
-                >
-                    <iframe
-                        src="https://giphy.com/embed/mGJnASn4655rQFCcpI"
-                        width="300"
-                        height="180"
-                        frameBorder="0"
-                        className="desktop-hide giphy-embed"
-                        allowFullScreen
-                    >
-                    </iframe>
-                    <iframe
-                        src="https://giphy.com/embed/mGJnASn4655rQFCcpI"
-                        width="480"
-                        height="292"
-                        frameBorder="0"
-                        className="mobile-hide giphy-embed"
-                        allowFullScreen
-                    >
-                    </iframe>
+                <div className="project-demo">
+                    <img src="parsed.gif"/>
                 </div>
             </div>
             </Flickity>

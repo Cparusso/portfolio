@@ -323,6 +323,10 @@ h1 {
   pointer-events: none;
 }
 
+.project-demo img {
+  height: 45vh;
+}
+
 .project-links {
   display: flex;
   position: fixed;
@@ -677,7 +681,7 @@ https://flickity.metafizzy.co
   
   .project-links {
     position: fixed;
-    bottom: 26vh;
+    bottom: 27vh;
     width: 33vh;
     font-size: 1em;
   }
@@ -685,6 +689,10 @@ https://flickity.metafizzy.co
   .project-demo {
     position: fixed;
     bottom: 1vh;
+  }
+
+  .project-demo img {
+    height: 24.5vh;
   }
 }
 
