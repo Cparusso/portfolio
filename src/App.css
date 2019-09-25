@@ -494,7 +494,7 @@ https://flickity.metafizzy.co
 
 
 /* MOBILE */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 900px) {
   .spotlight {
     height: 30vh;
   }
