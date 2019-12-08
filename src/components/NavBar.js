@@ -46,8 +46,8 @@ class NavBar extends Component {
 							<NavLink to="/about" className={this.state.selected === "about" ? "selected-nav" : "navbar-link"} onClick={this.handleClick} >
 								about
 							</NavLink>
-							<a 
-								href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
+							<a
+								href="https://drive.google.com/file/d/1XvmtiSI8g1K7Ld4-eYBPXFxDur7z93B5/view"
 								className="navbar-link"
 								target="blank"
 							>
@@ -66,7 +66,7 @@ class NavBar extends Component {
 							<NavLink to="/about" className={this.state.selected === "about" ? "selected-nav" : "navbar-link"} onClick={this.handleClick} >
 								about
 							</NavLink>
-							<a 
+							<a
 								href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
 								className="navbar-link"
 								target="blank"
