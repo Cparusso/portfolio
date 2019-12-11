@@ -47,7 +47,7 @@ class NavBar extends Component {
 								about
 							</NavLink>
 							<a
-								href="https://drive.google.com/file/d/1XvmtiSI8g1K7Ld4-eYBPXFxDur7z93B5/view"
+								href="https://drive.google.com/file/d/1XvmtiSI8g1K7Ld4-eYBPXFxDur7z93B5/view?usp=sharing"
 								className="navbar-link"
 								target="blank"
 							>
@@ -67,7 +67,7 @@ class NavBar extends Component {
 								about
 							</NavLink>
 							<a
-								href="https://drive.google.com/file/d/18-BvMGQThoh5jobPE5phGSw-WJMzS2wJ/view"
+								href="https://drive.google.com/file/d/1XvmtiSI8g1K7Ld4-eYBPXFxDur7z93B5/view?usp=sharing"
 								className="navbar-link"
 								target="blank"
 							>
