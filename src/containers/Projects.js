@@ -1,5 +1,5 @@
 import React from 'react'
-import Project from '../components/Project.js'
+// import Project from '../components/Project.js'
 import Footer from '../components/Footer.js'
 import Flickity from 'react-flickity-component'
 
@@ -25,11 +25,11 @@ function Projects() {
                 <div>
                     <h1 className="project-title">Blog Timer</h1>
                     <p>
-                        Blog Timer is a simple timer app built using react. 
-                        Unlike most timers I've used, this timer displays 
-                        the updating time up in the title of the tab so that 
-                        you can have the timer running in the background 
-                        while you are presenting something and see how much 
+                        Blog Timer is a simple timer app built using react.
+                        Unlike most timers I've used, this timer displays
+                        the updating time up in the title of the tab so that
+                        you can have the timer running in the background
+                        while you are presenting something and see how much
                         time you have left without having to switch tabs.
                     </p>
                     <div className="project-links">
@@ -39,17 +39,17 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-demo">
-                    <img src="blog-timer.gif"/>
+                    <img src="blog-timer.gif" alt="blog timer project demo gif"/>
                 </div>
             </div>
             <div className="project-section">
                 <div>
                     <h1 className="project-title">Headcount</h1>
                     <p>
-                        Headcount would act as a platform for non-profits and 
-                        other small organizations to promote their 
-                        volunteer led events. A user can sign up, 
-                        view local upcoming events that need volunteers, 
+                        Headcount would act as a platform for non-profits and
+                        other small organizations to promote their
+                        volunteer led events. A user can sign up,
+                        view local upcoming events that need volunteers,
                         and commit to making a difference.
                     </p>
                     <div className="project-links">
@@ -59,16 +59,16 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-demo">
-                    <img src="headcount.gif"/>
+                    <img src="headcount.gif" alt="headcount project demo gif"/>
                 </div>
             </div>
             <div className="project-section" >
                 <div>
                     <h1 className="project-title">Parsed</h1>
                     <p>
-                        Parsed is a data visualization tool that can 
-                        help non-developers parse through JSON 
-                        api data more easily. Simply enter a URL to a JSON api, 
+                        Parsed is a data visualization tool that can
+                        help non-developers parse through JSON
+                        api data more easily. Simply enter a URL to a JSON api,
                         select your endpoints and let Parsed do the rest.
                     </p>
                     <div className="project-links">
@@ -78,7 +78,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="project-demo">
-                    <img src="parsed.gif"/>
+                    <img src="parsed.gif" alt="parsed project demo gif"/>
                 </div>
             </div>
             </Flickity>

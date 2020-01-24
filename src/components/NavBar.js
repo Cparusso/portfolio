@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import { MdEmail } from 'react-icons/md';
 
 class NavBar extends Component {
@@ -36,7 +36,7 @@ class NavBar extends Component {
 					<div className="navbar fade-in">
 						<div className="nav-left" >
 							<NavLink to="/" className="navbar-link" onClick={ this.handleClick } >
-								<img className={this.state.selected === "home" ? "signature-invert" : "signature"} src="signature.png" />
+								<img className={this.state.selected === "home" ? "signature-invert" : "signature"} src="signature.png" alt="Charlie Russo - signature"/>
 							</NavLink>
 						</div>
 						<div className="nav-center" >
