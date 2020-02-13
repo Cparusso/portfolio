@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaGithubSquare, FaMedium } from 'react-icons/fa'
 
-function Footer(props) {
+const Footer = (props) => {
 	return (
 		<div className="footer-container fade-in mobile-hide">
 			<a className="react-icon-svg" href="https://www.linkedin.com/in/charlieprusso/" target="blank" >
